@@ -1,28 +1,8 @@
 {
-  "author": "Zach Carter <zcarter@mozilla.com> (http://twitter.com/zii)",
-  "contributors": [
-    "Szigetvári Áron (https://github.com/AronSzigetvari)",
-    "Arpad Borsos <arpad.borsos@googlemail.com> (http://swatinem.de/)",
-    "Chia-liang Kao <clkao@clkao.org> (http://www.clkao.org/)",
-    "Vlad Filippov <github@vf.io> (http://vf.io)",
-    "Lloyd Hilaiel <lloyd@hilaiel.com> (http://lloyd.io)",
-    "Burak Yigit Kaya <me@byk.im> (http://byk.im)",
-    "Ryan Kelly <ryan@rfk.id.au> (http://www.rfk.id.au)",
-    "Austin King <shout@ozten.com> (https://ozten.com)",
-    "Kaare A. Larsen <kaare.a.larsen@gmail.com> (http://bottleno.se)",
-    "Francois Marier <francois@fmarier.org> (http://fmarier.org)",
-    "Eduardo Vaz de Mello (https://github.com/wirapuru)",
-    "Justin van der Merwe (https://github.com/justinvdm)",
-    "Andris Reinman <andris.reinman@gmail.com> (http://www.andrisreinman.com)",
-    "Michael Weibel (https://github.com/mweibel)",
-
-    "Yasu <mahata777@gmail.com> (https://github.com/mahata)",
-    "Marcus (https://github.com/mphasize)"
-  ],
-  "name": "jsxgettext",
-  "version": "0.6.1",
-  "license": "MPL-2.0",
-  "description": "Extracts gettext strings from JavaScript, EJS, Jade, Jinja and Handlebars files.",
+  "author": "Jean CARRIERE <jean.carriere@talkspirit.com>",
+  "name": "tk-jsxgettext",
+  "version": "0.1.0",
+  "description": "Extracts gettext strings from JavaScript, Embeded JS (_ templates) and Handlebars files.",
   "keywords": [
     "i18n",
     "internationalization",
@@ -30,11 +10,6 @@
     "xgettext"
   ],
   "homepage": "https://github.com/zaach/jsxgettext",
-  "bugs": "https://github.com/zaach/jsxgettext/issues",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/zaach/jsxgettext.git"
-  },
   "main": "lib/jsxgettext.js",
   "bin": "lib/cli.js",
   "preferGlobal": true,
